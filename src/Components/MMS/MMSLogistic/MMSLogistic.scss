@@ -1,0 +1,46 @@
+@import '../../../../public/scss/variables';
+
+.logistic{
+    width: 100%;
+    margin-top: 14px;
+    background-color: #fff;
+    border-radius:  6px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+
+
+    & .MuiBox-root{
+        width: 100% !important;
+        padding: 0 16px!important;
+    }
+
+    & button:focus {
+        outline: none;
+    }
+
+    // Button title selected
+    & .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary.Mui-selected.css-1h9z7r5-MuiButtonBase-root-MuiTab-root{
+        color: $primary-blue;
+    }
+
+    // button title
+    & .MuiButtonBase-root.MuiTab-root.MuiTab-textColorPrimary{
+        font-size: 14px;
+        text-transform: unset;
+    }
+
+    // button list
+    & .MuiTabs-flexContainer.css-heg063-MuiTabs-flexContainer{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    & .MuiTabs-indicator.css-1aquho2-MuiTabs-indicator{
+        background-color: $primary-blue;
+    }
+
+    // out side content tag
+    & .MuiTabPanel-root.css-13xfq8m-MuiTabPanel-root{
+        padding: 24px 0;
+        background-color: #fff;
+    }
+}

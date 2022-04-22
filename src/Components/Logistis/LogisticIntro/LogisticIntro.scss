@@ -1,0 +1,62 @@
+@import '../../../../public/scss/variables';
+
+
+.intro{
+    font-size: 16px;
+    // box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+
+    p{
+        
+    }
+
+    .title{
+        font-weight: 400;
+        font-size: 22px;
+    }
+
+    .to{
+        margin-bottom: 16px;
+        font-style: italic;
+    }
+
+    & img{
+        width: 100%;
+        margin: 12px 0;
+        border-radius:8px
+    }
+
+    & .title-section{
+        font-size: 20px;
+        margin: 20px 0 4px;
+        padding-bottom: 10px;
+        font-weight: 500;
+    }
+
+    .img-list{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        img{
+            width: 129px;
+        }
+    }
+
+    .table{
+        white-space: nowrap;
+        margin-top: 16px;
+        th{
+            font-size: 16px;
+            font-weight: 500;
+            width: 25%;
+            padding: 12px;
+        }
+        td{
+            vertical-align: top;
+            padding: 12px;
+        }
+        img{
+            width: 100px;
+            margin: 0;
+        }
+    }
+}

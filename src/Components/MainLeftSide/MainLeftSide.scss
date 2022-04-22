@@ -1,0 +1,90 @@
+@import '../../../public/scss/variables';
+
+.main-left{
+    width: 280px;
+    margin-top: 12px;
+    
+    &-list{
+        width: 100%;
+        height: 370px;
+        overflow: hidden;
+        margin-bottom: 0;
+        transition: height 0.8s ease;
+    }
+
+    &-list.view-more{
+        height: 656px;
+        overflow:auto;
+    }
+    
+    &-item{
+        border-radius: 8px;
+        display: flex;
+        padding: 8px 0 8px 8px;
+        
+    }
+
+    &-item:hover{
+        background-color: #DBDBDB;
+        cursor: pointer;
+    }
+
+    &-item:hover .name{
+        color: $primary-gray;
+    }
+
+    &-item a{ 
+        display: flex;
+        align-items: center;
+    }
+
+    &-item img{
+        width: 25px;
+    }
+
+    &-item .name{
+        margin-left: 20px;
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    &-last-item{
+        position: relative;
+        border-radius: 8px;
+        display: flex;
+        justify-content:flex-start;
+        align-items:center;
+        padding: 8px 0 8px 8px;
+        margin-bottom: 12px;
+
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: -16px;
+            left: 0;
+            width: 100%;
+            border-bottom: 1px solid #D8D9DC;
+        }
+
+        & .name{
+            margin-left: 20px;
+            font-size: 12.8px;
+            line-height: 1.5;
+        }
+    }
+
+    &-icon{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: $background-gray;
+    }
+
+    &-last-item:hover{
+        cursor: pointer;
+        background-color: #DBDBDB;
+    }
+}

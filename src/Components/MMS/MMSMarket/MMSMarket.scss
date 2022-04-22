@@ -1,0 +1,102 @@
+@import '../../../../public/scss/variables';
+
+.market{
+    width: 100%;
+    margin-top: 10px;
+    & .post{
+        padding-bottom: 2px;
+
+        & .container{
+            width: 100%;
+        }
+
+        
+    }
+    .swiper {
+        width: 100%;
+        height: 100%;
+        }
+    
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+    }
+    
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+    }
+    
+    
+
+    &-title{
+        position: relative;
+        font-size: 16px;
+        margin: 0 0 6px 20px;
+        text-transform: uppercase;
+    }
+
+    &-title::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -12px;
+        width: 4px;
+        height: 100%;
+    }
+
+    &-title--red::before{
+        background-color: red;
+    }
+
+    &-title--blue::before{
+        background-color: blue;
+    }
+
+
+
+    // flash sale
+    .sale-title{
+        display: flex;
+        justify-content: space-between;
+
+        &-left{
+            display: flex;
+        }
+
+        &-icon{
+            height: 30px;
+            width: 30px !important;
+        }
+
+        &-text{
+            font-size: 20px;
+            margin-left: 10px;
+        }
+    }
+
+    .view-more{
+        font-size: 16px;
+    }
+
+    .market-product-list{
+        margin: 8px 0;
+    }
+
+
+    & .banner{
+        display: block;
+        width: 100%;
+        margin-top: 10px;
+        overflow: hidden;
+
+        img{
+            width: 100%;
+            transition: all 2s ease;
+        }
+
+        img:hover{
+            transform: scale(1.05);
+        }
+    }
+}

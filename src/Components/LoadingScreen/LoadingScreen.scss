@@ -1,0 +1,35 @@
+@keyframes bounce {
+    0% {
+        transform: translateX(-3000px)
+    }
+
+    100% {
+        transform: translateX(0)
+    }
+}
+
+.loading{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: -54px;
+    left: 0;
+    display: flex;
+    background-color: #fff;
+    z-index: 99;
+    &-content{
+        margin: auto;
+        transition: all 0.2s ease;
+        position: relative;
+        -webkit-animation: bounce .5s infinite;
+        animation: bounce .5s;
+    }
+
+    img{
+        height: 80px;
+    }
+    .logo-loading{
+        margin-left: 10px;
+        height: 60px;
+    }
+}

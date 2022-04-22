@@ -1,0 +1,84 @@
+@import '../../../public/scss/variables';
+
+.main-right{
+    width: 280px;
+    
+    &-list{
+        width: 100%;
+        height: auto;
+        overflow: hidden;
+        margin-top: 14px;
+        margin-bottom: 0;
+        transition: height 0.8s ease;
+    }
+    
+    &-item{
+        border-radius: 8px;
+        display: flex;
+        padding: 5px 0 5px 5px;
+        
+    }
+
+    &-item:hover{
+        background-color: #DBDBDB;
+        cursor: pointer;
+    }
+
+    &-item:hover .name{
+        color: $primary-gray;
+    }
+
+    &-item a{ 
+        display: flex;
+        align-items: center;
+    }
+
+    &-item img{
+        width: 40px;
+    }
+
+    &-item .name{
+        margin-left: 20px;
+        font-size: 12.8px;
+        line-height: 1.5;
+        color: #212529 !important;
+    }
+
+    &-icon{
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background-color: $background-gray;
+    }
+
+    &-last-item:hover{
+        cursor: pointer;
+        background-color: #DBDBDB;
+    }
+
+    &-title{
+        font-size: 16px;
+        color: #212529;
+        margin-bottom: 10px;
+        font-weight: 400;
+    }
+
+    &-title:last-child{
+        margin-top: 25px;
+    }
+}
+
+.download{
+    display: flex;
+
+    &-item{
+        margin-right: 8px;
+    }
+
+    &-item img{
+        height: 40px;
+    }
+}

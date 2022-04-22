@@ -1,0 +1,18 @@
+@import '../../../../public/scss/variables';
+
+.rule{
+    font-size: 16px;
+
+    &-title{
+        font-size: 22px;
+        margin-bottom: 12px;
+    }
+
+    & .table.table-striped{
+        margin: 24px 0;
+        td{
+            padding : 18px 12px;
+            // text-align: center;
+        }
+    }
+}

@@ -1,0 +1,73 @@
+@import "../../../../public/scss/variables";
+
+.course-item{
+    height: 330px;
+    margin-top: 10px;
+    border: 1px solid $background-gray;
+    transition: all 1s ease;
+
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.01);
+        border: 1px solid $primary-blue;
+        border-radius:4px;
+    }
+
+    &-img{
+        height: 168px;
+        overflow: hidden;
+        img{
+            width: 100%;
+            transition: all 1s ease;
+        }
+
+        // hover
+        &:hover{
+            cursor: pointer;
+        }
+
+        &:hover img{
+            transform: scale(1.1);
+        }
+    }
+
+    &-infor{
+        padding: 10px;
+    }
+
+    &-name{
+        height: 50px;
+        display: block;
+        font-size: 16px;
+        margin: 8px 0 4px;
+        color: #000;
+    }
+
+    &-teacher{
+        height: 42px;
+        font-size: 14px;
+        font-weight: 500;
+        margin: 10px 0;
+        color: $primary-gray;
+        font-weight: 300;
+    }
+
+    &-price{
+        margin: 8px 0 4px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        &--retail{
+            text-decoration: line-through;
+            color: gray;
+            font-size: 14px;
+        }
+
+        &--sale{
+            margin-left: 12px;
+            font-size: 16px;
+            color: red;
+        }
+    }
+}

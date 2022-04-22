@@ -1,0 +1,36 @@
+.seller-slider-cart {
+    display: block;
+    border-radius: 6px;
+    margin: 6px;
+
+    &_img {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        padding: 4px 2px 2px;
+    }
+
+    &_img img {
+        height: 131px;
+        width: unset !important;
+        margin: auto;
+    }
+
+    &_title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 4px 4px 8px;
+        font-size: 13px;
+        font-weight: 500;
+        margin: 12px 0;
+        height: 42px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 2;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+}

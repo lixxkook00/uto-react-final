@@ -1,0 +1,84 @@
+@import '../../../../public/scss/variables';
+
+.market-product-item{
+    border: 1px solid #eee;
+    border-radius: 4px;
+    overflow: hidden;
+    display: block;
+    margin-top: 4px;
+
+    &:hover{
+        cursor: pointer;
+        transform: scale(1.01);
+        border: 1px solid $primary-blue;
+        transition: all 0.5s ease;
+        color: unset !important;
+    }
+
+    &_img{
+        height: 203px;
+        width: 100%;
+        overflow: hidden;
+        padding: 4px;
+        display: flex;
+        justify-content:center;
+
+        & img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &-infor{
+        padding: 10px;
+    }
+
+    &_name{
+        min-height: 50px;
+        font-size: 14px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 25px;
+        -webkit-line-clamp: 2;
+        height: 50px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        margin-bottom: 4px;
+    }
+
+    &_price{
+
+        &-current{
+            font-size: 20px;
+            font-weight: 500;
+            color: #b53d3c;
+        }
+
+        &-old{
+            display: flex;
+            font-size: 14px;
+            min-height: 21px;
+            & .num{
+                text-decoration: line-through;
+                
+            }
+        }
+
+        .percent{
+            margin-left: 8px;
+            font-weight: 500;
+        }
+    }
+
+    &_ft{
+        margin: 4px 0;
+        display: flex;
+        justify-content: space-between;
+
+        .css-ryrseu-MuiRating-root{
+            font-size: 13px;
+        }
+    }
+
+}

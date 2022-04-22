@@ -1,0 +1,98 @@
+export const category = [
+    {
+        id:0,
+        img:'left menu image (3).png',
+        title:'Về chúng tôi',
+        href:'https://uto.vn/introduce',
+    },
+    {
+        id:1,
+        img:'left menu image (1).png',
+        title:'Nộp hồ sơ',
+        href:'https://uto.vn/my-profile/nop-ho-so',
+    },
+    {
+        id:2,
+        img:'left menu image.png',
+        title:'Trang cá nhân',
+        href:'https://uto.vn',
+    },
+    {
+        id:3,
+        img:'left menu image (2).png',
+        title:'Tin tức',
+        href:'https://uto.vn/news',
+    },
+    {
+        id:4,
+        img:'left menu image (4).png',
+        title:'Cộng đồng',
+        href:'https://uto.vn/community',
+    },
+    {
+        id:5,
+        img:'left menu image (6).png',
+        title:'Sàn thương mại',
+        href:'https://uto.vn',
+    },
+    {
+        id:6,
+        img:'left menu image (5).png',
+        title:'Sàn công nghệ',
+        href:'https://uto.vn',
+    },
+    {
+        id:7,
+        img:'left menu image (7).png',
+        title:'Việc làm',
+        href:'https://uto.vn',
+    },
+    {
+        id:8,
+        img:'left menu image (8).png',
+        title:'Web builder',
+        href:'https://uto.vn',
+    },
+    {
+        id:9,
+        img:'left menu image (9).png',
+        title:'Logistics',
+        href:'https://uto.vn',
+    },
+    {
+        id:10,
+        img:'left menu image (10).png',
+        title:'Phần mềm bán hàng',
+        href:'https://uto.vn',
+    },
+    {
+        id:11,
+        img:'left menu image (11).png',
+        title:'Đào tạo',
+        href:'https://uto.vn',
+    },
+    {
+        id:12,
+        img:'left menu image (12).png',
+        title:'Du lịch',
+        href:'https://uto.vn',
+    },
+    {
+        id:13,
+        img:'left menu image (13).png',
+        title:'Bảo hiểm',
+        href:'https://uto.vn',
+    },
+    {
+        id:14,
+        img:'left menu image (14).png',
+        title:'Bất động sản',
+        href:'https://uto.vn',
+    },
+    {
+        id:15,
+        img:'left menu image (15).png',
+        title:'Liên hệ',
+        href:'https://uto.vn',
+    },
+]

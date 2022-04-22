@@ -1,0 +1,80 @@
+@import "../../../../public/scss/variables";
+
+.edu{
+
+    .post{
+        padding: 7px 5px;
+    }
+
+    & .edu-category-list{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    & .edu-category-item{
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        margin: 6px 0;
+        justify-content: space-between;
+        background-color: #D4DFE7;
+
+        &_text{
+            font-size: 16px;
+            display: flex;
+            align-items: center;
+        }
+
+        &_icon{
+
+            img{
+                width: 40px;
+            }
+        }
+    }
+
+    .edu-post{
+    
+        .seller-slider-cart{
+            display: block;
+            border-radius: 6px;
+            margin: 6px;
+    
+            
+        }
+    }
+
+    .feature-courses-title{
+        text-transform: uppercase;
+        font-size: 18px;
+        margin: 0 0 10px 8px;
+        padding: 0 8px;
+        border-bottom: 1px solid $background-gray;
+    }
+
+   .reason-item{
+        text-align: center;
+        margin-top: 10px;
+        padding: 10px;
+        border: 1px solid $primary-blue;
+        border-radius: 10px;
+        
+        & img{
+            width: 100px;
+        }
+
+        &-title{
+            font-size: 16px;
+            font-weight: 500;
+            color: $primary-blue;
+        }
+
+        &-decs{
+            padding: 0 12px;
+            font-size: 14px;
+            line-height: 22px;
+            height: 44px;
+        }
+   }
+}

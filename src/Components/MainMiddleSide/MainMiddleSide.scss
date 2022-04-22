@@ -1,0 +1,11 @@
+.main-content{
+    width: 656px;
+    overflow-y: scroll;
+    height: 100%;
+    padding: 0px 8px 8px;
+    
+}
+
+.main-content::-webkit-scrollbar {
+    display: none;
+}
