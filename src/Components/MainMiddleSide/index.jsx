@@ -10,6 +10,7 @@ import MMSEdu from '../MMS/MMSEdu'
 import MMSMarket from '../MMS/MMSMarket'
 import ProductDetail from '../Details/ProductDetail'
 import ShopDetail from '../Details/ShopDetail';
+import NotFound404 from '../NotFound404';
 
 // Footer
 import Footer from '../Footer'
@@ -47,6 +48,9 @@ function MainMiddleSide() {
 
                         {/* Detail Shop */}
                         <Route path="/shop/:_id" element={<ShopDetail/>} />
+
+                        {/* Not Found */}
+                        <Route path="*" element={<NotFound404/>} />
                     </Routes>
                 <Footer/>
             </div>

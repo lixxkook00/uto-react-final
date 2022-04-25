@@ -96,7 +96,7 @@ function HeaderMobile(props) {
                 {
                     mainContentList.map((item,index) => {
                         return (
-                            <Link to={`/${item.id}`} className="nav-item">
+                            <Link key={index} to={`/${item.id}`} className="nav-item">
                                 <div className="nav-item-icon">
                                     <i className={item.icon}></i>
                                 </div>

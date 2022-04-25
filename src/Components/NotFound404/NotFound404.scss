@@ -1,0 +1,21 @@
+.notfound{
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .logo-notfound{
+        height: 80px;
+    }
+
+    .primary-button{
+        font-weight: 500;
+    }
+}
