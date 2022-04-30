@@ -6,7 +6,7 @@ import HeaderMobile from './Components/HeaderMobile'
 import MainLeftSide from './Components/MainLeftSide'
 import MainMiddleSide from './Components/MainMiddleSide'
 import MainRightSide from './Components/MainRightSide'
-import LoadingScreen from './Components/LoadingScreen'
+import LoadingScreen from './Pages/LoadingScreen'
 
 
 
@@ -37,7 +37,7 @@ function App() {
   }
 
   useEffect(()=>{
-    setTimeout(handleLoading, 1000);
+    setTimeout(handleLoading, 500);
   })
 
   return (

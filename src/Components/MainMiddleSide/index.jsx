@@ -10,7 +10,7 @@ import MMSEdu from '../MMS/MMSEdu'
 import MMSMarket from '../MMS/MMSMarket'
 import ProductDetail from '../Details/ProductDetail'
 import ShopDetail from '../Details/ShopDetail';
-import NotFound404 from '../NotFound404';
+import NotFound404 from '../../Pages/NotFound404';
 
 // Footer
 import Footer from '../Footer'
