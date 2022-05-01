@@ -1,0 +1,490 @@
+// Motherfucking Iphone 5S
+@media (max-width: 375px) {
+    .main-content{
+        width: 100% !important;
+    }
+    .market-product-item_ft{
+        flex-direction: column !important;
+    }
+
+    .market .market-product-item  .market-product-item_img {
+        height: 170px !important;
+    }
+
+    .market .market-product-item .market-product-item_name{
+        font-size: 13px !important;
+    }
+}
+
+/* 500*/
+
+@media (min-width: 500px) and (max-width: 742px) {
+    .hidden-500plus {
+        display: none !important;
+    }
+
+}
+
+
+@media (max-width: 500px) {
+    .hidden-500{
+        display: none !important;
+    }
+    .shop-content .shop-back{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .shop-content .shop-detail .shop-avt{
+        position: relative;
+        top: unset;
+        left: unset;
+    }
+    .shop-content .shop-detail .shop-avt{
+        flex-direction: row !important;
+        margin: 15px;
+        width: 60px;
+    }
+
+    .shop-content .shop-infor{
+        padding: 0 !important;
+    }
+
+    .shop-avt::after {
+        top: -27px !important;
+        left: -5px !important;
+    }
+
+    .shop-content .shop-infor{
+        padding-left: 20px !important;
+        margin-top: 10px;
+    }
+    
+    .shop-content .shop-infor-owner{
+        position: absolute;
+        left: 115%;
+        top: -20px;
+        width: 170px;
+        text-align: left !important;
+        font-size: 15px !important;
+    }
+    .shop-infor-address{
+        margin-top: 10px !important;
+    }
+}
+
+
+/* Mobile Only */
+@media (max-width: 739px) {
+    .hidden-m {
+        display: none !important;
+    }
+    
+    .container-uto{
+        padding: 0 !important;
+    }
+
+    .main-content {
+        width: 100% !important;
+    }
+
+    .post {
+        width: 100% !important;
+    }
+
+    .post-content-img{
+        margin-bottom: 12px;
+    }
+
+    .post .post-content-img {
+        height: unset !important;
+    }
+
+    .post-content-img img {
+        width: 100%;
+        height: unset !important;
+    }
+
+    .footer-title{
+        text-align: center;
+    }
+
+    .footer-icon-list {
+        justify-content: center;
+    }
+
+    .footer-app-list{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer-brand{
+        flex-direction: column;
+        height: 70px !important;
+    }
+
+    .footer-link-item{
+        text-align: center;
+    }
+
+    .post .post-buttons .post-button-text{
+        font-size: 13px;
+    }
+    .post-inputs input {
+        font-size: 12px;
+    }
+
+    .intro .table th {
+        font-size: 9px !important;
+        font-weight: 600;
+        width: 10%;
+        padding: 12px 4px !important;
+        text-overflow: inherit;
+    }
+
+    .intro .table img {
+        width: 80% !important;
+        margin: 0;
+    }
+
+    .intro .table td {
+        vertical-align: top;
+        font-size: 12px;
+        padding: 12px 4px !important;
+    }
+
+    .intro .img-list {
+        flex-direction: column;
+    }
+
+    .market{
+        .col-sm-6 {
+            padding: 2px 4px;
+        }
+    }
+
+    .edu{
+        .col-xl-6 {
+            padding: 0 6px;
+        }
+    }
+
+    .market-product-item_img{
+        height: 180px !important;
+    }
+    
+    // Product detail
+    .product-infor-name{
+        margin-bottom: 10px;
+    }
+
+    .product-infor-price-current{
+        font-size: 32px !important;
+    }
+
+    .product-infor-price-retail{
+        font-size: 18px;
+    }
+
+    .product-infor-price-percent{
+        font-size: 18px;
+    }
+
+    .shop-avt{
+        margin-top: 20px;
+        height: 58px !important;
+    }
+
+    .shop{
+        align-items: flex-start !important;
+    }
+    
+    .product-infor-button{
+        flex-direction: column;
+    }
+
+    .second-button{
+        justify-content: center;
+        margin: 10px 0 5px !important;
+    }
+
+    .primary-button{
+        margin: 10px 0 5px !important;
+    }
+    .product-infor{
+        border-top: 1px solid #ccc;
+        margin-top: 20px;
+    }
+
+    .product-infor-quantity{
+        flex-wrap: wrap;
+    }
+
+    .product-infor-quantity-control{
+        margin-bottom: 20px !important;
+    }
+
+    .market-product-item_name{
+        font-size: 13px !important;
+        color: black;
+        margin-bottom: 4px;
+    }
+    .product-infor-vote{
+        justify-content: space-between;
+    }
+
+    .css-4t3x6l-MuiPaper-root-MuiDrawer-paper{
+        width: 100vw !important;
+        .MuiBox-root{
+            width: 100% !important;
+        }
+    }
+
+    .css-1160xiw-MuiPaper-root-MuiDrawer-paper{
+        width: 100vw !important;
+        
+        .MuiBox-root {
+            width: 100% !important;
+        }
+    }
+
+    .MuiBox-root.css-17tcwuz{
+        width: 98vw !important;
+
+        input{
+            font-size: 14px;
+        }
+    }
+
+    .market{ 
+        & .market-product-item_img{
+            height: 200px !important;
+        }
+    }
+
+    .market .market-product-item .market-product-item_img {
+        height: 170px !important;
+    }
+    
+    .market .market-product-item .market-product-item_name {
+        font-size: 13px !important;
+    }
+
+    .product{
+        overflow: hidden;
+
+    }
+
+    .product-img{
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .shop .shop-btn{
+        margin: 0;
+        width: 100% !important;
+    }
+
+    .shop-content .shop-cover{
+        height: 200px !important;
+    }
+
+    .services-cart-text {
+        display: flex;
+        align-items: center;
+        font-size: 12px !important;
+    }
+
+    .product-infor-name{    
+        font-size: 16px !important;
+    }
+
+    .product-infor-vote-item{
+        border-right: none;
+    }
+}
+
+
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .hidden-t {
+        display: none;
+    }
+
+    .hidden-m-t {
+        display: none !important;
+    }
+    .main-left {
+        display: none;
+    }
+
+    .main-right{
+        display: none;
+    }
+
+    .header{
+        display: none !important;
+    }
+
+    .community{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-content{
+        width: 100% !important;
+    }
+
+    .logistic{
+        width: unset !important;
+    }
+
+    .market .market-product-item_img{
+        height: 300px;
+    }
+
+    .edu .edu-category-item {
+        height: 68px;
+    }
+}
+
+
+
+/* Tablet Only */
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hidden-tl{
+        display: none !important;
+    }
+
+    .market{
+        .col-md-6 {
+            padding: 2px 4px;
+        }
+    }
+
+}
+
+
+
+@media (min-width: 992px){
+    .market{
+        .col-lg-4 {
+            padding: 2px 4px;
+        }
+    }
+    .edu{
+        .col-xl-6 {
+            padding: 0 6px;
+        }
+    }
+}
+
+
+
+/* Tablet to PC low resolution */
+
+@media (min-width: 985px) and (max-width: 1200px) {
+    .container-uto{
+        padding: 0 12px 0 !important;
+    }
+
+    .main-left {
+        width: 350px !important;
+    }
+
+    .main-content{
+        width: 600px !important;
+    }
+
+    .ft{
+        width: 100% !important;
+    }
+
+    .footer{
+        width: 100% !important;
+    }
+
+    .main-right-list{
+        width: 250px !important;
+    }
+    .download{
+        flex-direction: column;
+    }
+
+    .download-item{
+        margin-top: 12px;
+    }
+
+    .download-item img{
+        width: 140px;
+    }
+
+    
+}
+
+/* > PC low resolution */
+
+@media (min-width: 1024px) and (max-width: 1239px) {
+    .container-uto{
+        padding: 0 12px 0;
+    }
+
+    .main-right-list{
+        padding-left: 20px;
+    }
+
+    .main-left {
+        width: 236px !important;
+    }
+
+    .main-content {
+        width: 624px !important;
+    }
+}
+
+/* Tablet to PC low resolution */
+
+@media (min-width: 1240px) and (max-width: 1326px) {
+    .container-uto{
+        padding: 0 12px 0;
+    }
+
+    .main-left {
+        width: 236px !important;
+    }
+}
+
+/* PC only */
+
+@media (min-width: 1024px) {
+    .hide-on-pc {
+        display: none !important;
+    }
+    .container-uto{
+        padding: 0 12px 0;
+    }
+}
+
+// PC
+@media (min-width: 1200px) {
+    .market{
+        .col-xl-4 {
+            padding: 2px 4px;
+        }
+    }
+
+    .edu{
+        .col-xl-6 {
+            padding: 0 6px;
+        }
+    }
+}
+
+
+@media (min-width: 984px) and (max-width: 1023px) {
+    .main-content{
+        width: 100% !important;
+    }
+}

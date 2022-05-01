@@ -77,18 +77,18 @@ function ChangeToSlug(title)
     slug = slug.replace(/ý|ỳ|ỷ|ỹ|ỵ/gi, 'y');
     slug = slug.replace(/đ/gi, 'd');
     //Xóa các ký tự đặt biệt
-    slug = slug.replace(/\`|\~|\!|\@|\#|\||\$|\%|\^|\&|\*|\(|\)|\+|\=|\,|\.|\/|\?|\>|\<|\'|\"|\:|\;|_/gi, '');
+    // slug = slug.replace(/\`|\~|\!|\@|\#|\||\$|\%|\^|\&|\*|\(|\)|\+|\=|\,|\.|\/|\?|\>|\<|\'|\"|\:|\;|_/gi, '');
     //Đổi khoảng trắng thành ký tự gạch ngang
-    slug = slug.replace(/ /gi, " - ");
+    slug = slug.replace(/ /gi, "-");
     //Đổi nhiều ký tự gạch ngang liên tiếp thành 1 ký tự gạch ngang
     //Phòng trường hợp người nhập vào quá nhiều ký tự trắng
-    slug = slug.replace(/\-\-\-\-\-/gi, '-');
-    slug = slug.replace(/\-\-\-\-/gi, '-');
-    slug = slug.replace(/\-\-\-/gi, '-');
-    slug = slug.replace(/\-\-/gi, '-');
+    // slug = slug.replace(/\-\-\-\-\-/gi, '-');
+    // slug = slug.replace(/\-\-\-\-/gi, '-');
+    // slug = slug.replace(/\-\-\-/gi, '-');
+    // slug = slug.replace(/\-\-/gi, '-');
     //Xóa các ký tự gạch ngang ở đầu và cuối
-    slug = '@' + slug + '@';
-    slug = slug.replace(/\@\-|\-\@|\@/gi, '');
+    slug = '' + slug + '';
+    // slug = slug.replace(/\@\-|\-\@|\@/gi, '');
     //In slug ra textbox có id “slug”
     return(slug);
 }
@@ -182,11 +182,11 @@ function ProductDetail(props) {
                             </div>
                             <div className="dflex">
                                 <div className="product-infor-price-retail">
-                                   {currentProduct.retailPrice != 0 && formatPrice(currentProduct.retailPrice)}
+                                   {currentProduct.retailPrice !== 0 && formatPrice(currentProduct.retailPrice)}
                                 </div>
 
                                 {
-                                    currentProduct.retailPrice != 0 
+                                    currentProduct.retailPrice !== 0 
                                     && 
                                     <div className="product-infor-price-percent">
                                         -{calcPercentDiscount(currentProduct.currentPrice,currentProduct.retailPrice)}%
