@@ -37,7 +37,7 @@ function App() {
   }
 
   useEffect(()=>{
-    setTimeout(handleLoading, 500);
+    setTimeout(handleLoading, 1000);
   })
 
   return (
